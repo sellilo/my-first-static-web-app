@@ -12,15 +12,8 @@
   <main>
     <h1>Twinner Registration</h1>
     <a href="https://white-stone-03f0b5003.1.azurestaticapps.net/testqr.html">Scan TwinnID and forward to prefilled google form</a>
-
+    <a href="https://white-stone-03f0b5003.1.azurestaticapps.net/testqr_AT.html">Scan TwinnID and forward to prefilled Airtable form</a>
   </main>
-
-  <script>
-    (async function() {
-        const { text } = await( await fetch(`/api/message`)).json();
-        document.querySelector('#name').textContent = text;
-    }())
-    </script>
     
 </body>
 
